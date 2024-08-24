@@ -44,8 +44,6 @@ class TrainingPipeline:
             data_ingestion_artifact=data_ingestion.initiate_data_ingestion()
             logging.info(f"Data ingestion completed and artifact: {data_ingestion_artifact}")
             return data_ingestion_artifact
-            
-            
         except Exception as e:
             raise NetworkSecurityException(e,sys)
         
