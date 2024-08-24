@@ -42,5 +42,5 @@ Data Transformation related constant start with DATA_TRANSFORMATION VAR NAME
 
 
 """
-Model Trainer related constant start with MODE TRAINER VAR NAME
+Model Trainer related constant start with MODEL TRAINER VAR NAME
 """
